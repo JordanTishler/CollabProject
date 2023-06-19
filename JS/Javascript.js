@@ -87,14 +87,14 @@ var config = {
           ]
       },
       {
-          id: 'Sam',
+          id: 'Jordan',
           alignment: 'right',
           hidden: false,
-          title: 'Samuel Pethick',
-          image: 'Images/sam.jpg',
-          description: 'Official Cartographer',
+          title: 'Jordan Tishler',
+          image: 'Images/jordan.jpg',
+          description: 'Project Lead',
           location: {
-              center: [-78.7712805, 44.3545731],
+              center: [-80.1211384, 43.9121321],
               zoom: 11.5,
               pitch: 40,
               bearing: 0,
@@ -112,14 +112,14 @@ var config = {
           onChapterExit: []
       },
       {
-          id: 'Jordan',
+          id: 'Sam',
           alignment: 'left',
           hidden: false,
-          title: 'Jordan Tishler',
-          image: 'Images/Jordan.jpg',
-          description: 'Spatial Analyst',
+          title: 'Samuel Pethick',
+          image: 'Images/sam.jpg',
+          description: 'Lead Cartographer',
           location: {
-              center: [-80.1211384, 43.9121321],
+              center: [-78.7712805, 44.3545731],
               zoom: 12.5,
               pitch: 40,
               bearing: 0.00
@@ -131,14 +131,14 @@ var config = {
           onChapterExit: []
       },
       {
-          id: 'Vince',
+          id: 'Kris',
           alignment: 'right',
           hidden: false,
-          title: 'Vince Ortona',
-          image: 'Images/vince.jpg',
-          description: 'Programmer',
+          title: 'Kris Lebert',
+          image: 'Images/Kris.jpg',
+          description: 'Lead Database Designer',
           location: {
-              center: [-73.8519554,45.5590971],
+              center: [-83.0364,42.3149],
               zoom: 10.5,
               pitch: 50,
               bearing: 0
@@ -149,27 +149,6 @@ var config = {
           onChapterEnter: [],
           onChapterExit: []
       },
-      {
-          id: 'Francis',
-          alignment: 'left',
-          hidden: false,
-          title: 'Francis Soriano',
-          image: 'Images/Francis.jpg',
-          description: 'Project Manager',
-          location: {
-              center: [55.1438121,25.1003766],
-              zoom: 12.5,
-              pitch: 50,
-              bearing: 0,
-              speed: 1,
-              curve: 1
-          },
-          mapAnimation: 'flyTo',
-          rotateAnimation: true,
-          callback: '',
-          onChapterEnter: [],
-          onChapterExit: []
-      }
   ]
 };
 /*Vince end */
