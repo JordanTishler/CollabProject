@@ -62,9 +62,9 @@ var config = {
           hidden: false,
           title: 'Fleming College',
           image: 'Images/fleming.png',
-          description: 'Bungi Consulting headquarters established in Lindsay, ON in 2022',
+          description: 'Fleming College Frost Campus established in Lindsay, ON in 1967',
           location: {
-              center: [-78.7408268,44.3410783],
+              center: [-78.7408268, 44.3410783],
               zoom: 14.5,
               pitch: 40,
               bearing: 0
@@ -87,8 +87,33 @@ var config = {
           ]
       },
       {
+        id: 'BCWA',
+        alignment: 'right',
+        hidden: false,
+        title: 'Baxter Creek Watshed allience',
+        image: 'Images/logos.png',
+        description: 'Project Client',
+        location: {
+            center: [-78.450601, 44.150335],
+            zoom: 11.5,
+            pitch: 40,
+            bearing: 0,
+            // flyTo additional controls-
+            // These options control the flight curve, making it move
+            // slowly and zoom out almost completely before starting
+            // to pan.
+            //speed: 2, // make the flying slow
+            //curve: 1, // change the speed at which it zooms out
+        },
+        mapAnimation: 'flyTo',
+        rotateAnimation: false,
+        callback: '',
+        onChapterEnter: [],
+        onChapterExit: []
+    },
+      {
           id: 'Jordan',
-          alignment: 'right',
+          alignment: 'left',
           hidden: false,
           title: 'Jordan Tishler',
           image: 'Images/jordan.jpg',
@@ -113,7 +138,7 @@ var config = {
       },
       {
           id: 'Sam',
-          alignment: 'left',
+          alignment: 'right',
           hidden: false,
           title: 'Samuel Pethick',
           image: 'Images/sam.jpg',
@@ -132,7 +157,7 @@ var config = {
       },
       {
           id: 'Kris',
-          alignment: 'right',
+          alignment: 'left',
           hidden: false,
           title: 'Kris Lebert',
           image: 'Images/Kris.jpg',
