@@ -92,7 +92,7 @@ var config = {
         hidden: false,
         title: 'Baxter Creek Watshed allience',
         image: 'Images/logos.png',
-        description: 'Project Client',
+        description: 'Project client headquaters located in Millbrook, Ontario',
         location: {
             center: [-78.450601, 44.150335],
             zoom: 11.5,
@@ -116,7 +116,7 @@ var config = {
           alignment: 'left',
           hidden: false,
           title: 'Jordan Tishler',
-          image: 'Images/jordan.jpg',
+          image: 'Images/Jordan.jpg',
           description: 'Project Lead',
           location: {
               center: [-80.1211384, 43.9121321],
