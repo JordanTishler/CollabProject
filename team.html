@@ -1,37 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head class=".w3-bar .w3-button .bgimg-1 ">
-<title>Bungi Consulting</title>
+<head class=".w3-bar .w3-button">
+<title>The Team</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="CSS/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script  src="JS/Javascript.js"> </script>
-<!--MAPBOX START src: https://github.com/mapbox/storytelling -->
-<link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/mapbox/assembly/publisher-staging/src/svgs/mapbox.svg">
-<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.css' rel='stylesheet'>
-    <script src="https://unpkg.com/intersection-observer@0.12.0/intersection-observer.js"></script>
-    <script src="https://unpkg.com/scrollama"></script>
-        <!--MAPBOX END-->
 </head>
 <body class = "backgroundgrey">
 <!--Jordan start-->
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="index.html" class="w3-bar-item w3-button w3-wide"><img src="Images/logoweb.png" alt="logo"> BUNGI CONSULTING</a>
+    <a href="index.html" class="w3-bar-item w3-button w3-wide"><img src="Images/logosmallBCB.png" alt="logo"> The Bax Creek Boys</a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOME</a>
-      <a href="about.html" class="w3-bar-item w3-button"> <i class="fa fa-book"></i>ABOUT</a>
-      <a href="team.html" class="w3-bar-item w3-button"><i class="fa fa-users"></i> TEAM</a>
-      <a href="services.html" class="w3-bar-item w3-button"><i class="fa fa-check-square-o"></i> SERVICES</a>
-      <a href="partners.html" class="w3-bar-item w3-button"><i class="fa fa-handshake-o"></i> PARTNERS</a>
-      <a href="Portfolio.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PORTFOLIO</a>
-      <a href="Testimonials.html" class="w3-bar-item w3-button"><i class="fa fa-comments"></i> TESTIMONIALS</a>
-      <a href="ContactUS.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+      <a href="about.html" class="w3-bar-item w3-button"> <i class="fa fa-users"></i> TEAM</a>
+      <a href="team.html" class="w3-bar-item w3-button"><i class="fa fa-check-square-o"></i> PRIMARY DELIVERABLES</a>
+      <a href="services.html" class="w3-bar-item w3-button"><i class="fa fa-check-square-o"></i> SECONDARY DELIVERABLES</a>
+      <a href="partners.html" class="w3-bar-item w3-button"><i class="fa fa-book"></i> METHODOLOGY</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -44,17 +34,22 @@
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large displaynone" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
-  <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
-  <a href="team.html" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
-  <a href="services.html" onclick="w3_close()" class="w3-bar-item w3-button">SERVICES</a>
-  <a href="partners.html" onclick="w3_close()" class="w3-bar-item w3-button">PARTNERS</a>
-  <a href="Portfolio.html" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a>
-  <a href="Testimonials.html" onclick="w3_close()" class="w3-bar-item w3-button">TESTIMONIALS</a>
-  <a href="ContactUS.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOME</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-users"></i> TEAM</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-check-square-o"></i> PRIMARY DELIVERABLES</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-check-square-o"></i> SECONDARY DELIVERABLES</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-book"></i> METHODOLOGY</a>
 </nav>
 <!-- Jordan End -->
-
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white padding48" >
+    <span class="w3-jumbo w3-hide-small black main-title">Project 2307: Phase 2 of communitiy connections with Baxter Creek</span>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium black main-title">Project 2307: Phase 2 of communitiy connections with Baxter Creek</span>
+    <span class="w3-large w3-black padding">A Project between the baxter Creek watched allience and the BCWA</span>
+    <p class="clear"><a href="services.html" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more about the project</a></p>
+  </div> 
+</header>
   <!-- Footer -->
   <footer class="w3-center w3-black w3-padding-64">
     <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
