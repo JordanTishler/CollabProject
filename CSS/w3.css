@@ -2034,7 +2034,7 @@ html {
 .bgimg-1 {
   background-position: center;
   background-size: cover;
-  background-image: url("../Images/");
+  background-image: url("../Images/Baxter Creek Native Reference Map 160klarge.png");
   min-height: 100%;
 }
 
@@ -2112,7 +2112,7 @@ html {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 40%;
+  top:60%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
@@ -2122,12 +2122,14 @@ html {
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
+  background-color: rgba(0, 0, 0, 0.349);
 }
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+  background-color: rgba(0, 0, 0, 0.349);
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -2143,6 +2145,7 @@ html {
   padding: 8px 12px;
   position: absolute;
   top: 0;
+  background-color: rgba(109, 109, 109, 0.8);
 }
 
 /* Container for image text */
@@ -2162,7 +2165,7 @@ html {
 /* Six columns side by side */
 .column {
   float: left;
-  width: 16.66%;
+  width: 25.00%;
 }
 
 /* Add a transparency effect for thumnbail images */
@@ -2372,9 +2375,9 @@ html {
 }
 /* Vince code end */
 /* Jordan code start */
-.max {max-width: 1000px; max-height: 667px;}
+.max {max-width: 1000px; max-height: 773px;}
 
-.padd {margin-bottom: 20%;}
+.padd {margin-bottom: 20%; margin-top: -100px;}
 
 .max1 {max-width: 400px; max-height: 292px;}
 .max2 {max-width: 400px; max-height: 247px;}
