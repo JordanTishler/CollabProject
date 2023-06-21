@@ -710,7 +710,7 @@ a {
   width: 99.99999%;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1500px) {
   .w3-col.m1 {
     width: 8.33333%;
   }
