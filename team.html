@@ -22,10 +22,10 @@
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
     <div class="w3-bar w3-white w3-card" id="myNavbar">
-      <a href="index.html" class="w3-bar-item w3-button w3-wide" id="home"><img src="Images/logosmallBCB.png" alt="logo"> The Bax Creek Boys</a>
+      <a href="index.html" class="w3-bar-item w3-button w3-wide"><img src="Images/logosmallBCB.png" alt="logo"> The Bax Creek Boys</a>
       <!-- Right-sided navbar links -->
       <div class="w3-right w3-hide-small">
-        <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOME</a>
+        <a href="index.html" class="w3-bar-item w3-button"id = 'home'><i class="fa fa-home"></i> HOME</a>
         <a href="team.html" class="w3-bar-item w3-button"> <i class="fa fa-users"></i> TEAM</a>
         <a href="Primary.html" class="w3-bar-item w3-button"><i class="fa fa-check-square-o"></i> PRIMARY DELIVERABLES</a>
         <a href="Secondary.html" class="w3-bar-item w3-button"><i class="fa fa-check-square-o"></i> SECONDARY DELIVERABLES</a>
@@ -54,21 +54,12 @@
 
 
 
-<div style="margin-top:100px; margin-bottom: 100px;">
   <!-- MAPBOX START src: https://github.com/mapbox/storytelling-->
-  <div id="map" ></div>
+<div style="margin-top:100px; margin-bottom: 100px;">
+<div id="map"></div>
 <div id="mapInset"></div>
 <div id="story"></div>
 </div>
-</body>
-<div>
-  <!-- Footer -->
-  <footer class="w3-center w3-black w3-padding-64">
-    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-  </footer>
-</div>
-
 <script>
 var initLoad = true;
 var layerTypes = {

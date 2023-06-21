@@ -53,7 +53,7 @@ var config = {
   auto: false,
   title: 'Our Team',
   subtitle: 'Where is Everyone From?',
-  footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+  footer: '<a href="https://jordantishler.github.io/CollabProject/team.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>',
   chapters: [
       {
           id: 'Fleming College',
