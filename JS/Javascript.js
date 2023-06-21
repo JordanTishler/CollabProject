@@ -89,7 +89,7 @@ var config = {
         id: 'BCWA',
         alignment: 'right',
         hidden: false,
-        title: 'Baxter Creek Watshed allience',
+        title: 'Baxter Creek Watershed Alliance',
         image: 'Images/logos.png',
         description: 'Project client headquaters located in Millbrook, Ontario',
         location: {
@@ -159,11 +159,11 @@ var config = {
           alignment: 'left',
           hidden: false,
           title: 'Kris Lebert',
-          image: 'Images/Kris.jpg',
+          image: 'Images/kris.jpg',
           description: 'Lead Database Designer',
           location: {
               center: [-83.0364,42.3149],
-              zoom: 10.5,
+              zoom: 11.5,
               pitch: 50,
               bearing: 0
           },

@@ -1,4 +1,4 @@
-/* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
+/* .CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
 html {
   box-sizing: border-box;
 }
@@ -710,7 +710,7 @@ a {
   width: 99.99999%;
 }
 
-@media (min-width: 1700px) {
+@media (min-width: 1000px) {
   .w3-col.m1 {
     width: 8.33333%;
   }
