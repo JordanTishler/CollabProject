@@ -154,25 +154,6 @@ var config = {
           onChapterEnter: [],
           onChapterExit: []
       },
-      {
-          id: 'Kris',
-          alignment: 'left',
-          hidden: false,
-          title: 'Kris Lebert',
-          image: 'Images/kris.jpg',
-          description: 'Lead Database Designer',
-          location: {
-              center: [-83.0364,42.3149],
-              zoom: 11.5,
-              pitch: 50,
-              bearing: 0
-          },
-          mapAnimation: 'flyTo',
-          rotateAnimation: false,
-          callback: '',
-          onChapterEnter: [],
-          onChapterExit: []
-      },
   ]
 };
 
